@@ -1,6 +1,6 @@
 import game from "./game.js";
 
-describe.only("game", () => {
+describe("game", () => {
   const wordToGuess = "adrian";
   const testGame = game(wordToGuess);
 
